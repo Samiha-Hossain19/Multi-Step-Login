@@ -221,3 +221,18 @@
 #Auth .register .progress-bar ul li.active::before {
   color: #e8505b;
 }
+
+#Auth .register .wrapper {
+  width: 400%;
+  display: flex;
+  transition: margin-left 0.3 s linear;
+}
+
+#Auth .register .wrapper form .input-group select {
+  width: 100%;
+  font-size: 17px;
+  font-weight: 400;
+  border: none;
+  outline: none;
+  padding-left: 10px;
+}
