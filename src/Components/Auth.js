@@ -1,7 +1,6 @@
 import React from "react";
 import "../Styles/Auth.css";
 import Login from "../Components/Login";
-import Register from "../Components/Register";
 
 const Auth = () => {
   return (
@@ -10,8 +9,7 @@ const Auth = () => {
         <i className="far fa-window-close"></i>
       </a>
       <div className="content">
-        {/* <Login /> */}
-        <Register />
+        <Login />
       </div>
     </div>
   );
