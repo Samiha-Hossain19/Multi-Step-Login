@@ -2,9 +2,9 @@ import React from "react";
 import "../Styles/Home.css";
 import IMG from "../images/email.svg";
 
-const Home = () => {
+const Home = ({ isAuth, setIsAuth }) => {
   return (
-    <div id="Home">
+    <div id="Home" className={`${isAuth.open ? "avtive" : ""}`}>
       <div className="container"></div>
 
       {/* Image */}
@@ -21,11 +21,19 @@ const Home = () => {
           penatibus et magnis dis parturient montes.
         </p>
         <div className="btns">
-          <a href="#!" className="login-btn">
+          <a
+            href="#!"
+            className="login-btn"
+            onClick={() => setIsAuth({ open: true, form: "login" })}
+          >
             Login
           </a>{" "}
           <br />
-          <a href="#!" className="register-btn">
+          <a
+            href="#!"
+            className="register-btn"
+            onClick={() => setIsAuth({ open: true, form: "register" })}
+          >
             Register
           </a>
         </div>

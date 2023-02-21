@@ -146,7 +146,7 @@ const Register = () => {
             <button type="button" onClick={() => plusIndex(-1)}>
               Prev
             </button>
-            <button type="submit">Submit</button>
+            <button type="submit">Register</button>
           </div>
         </form>
       </div>
