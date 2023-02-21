@@ -82,7 +82,9 @@ const Register = () => {
 
           {/*Buttons*/}
           <div className="btns">
-            <button type="button">Prev</button>
+            <button type="button" onClick={() => plusIndex(-1)}>
+              Prev
+            </button>
             <button type="submit">Next</button>
           </div>
         </form>
@@ -112,7 +114,9 @@ const Register = () => {
 
           {/*Buttons*/}
           <div className="btns">
-            <button type="button">Prev</button>
+            <button type="button" onClick={() => plusIndex(-1)}>
+              Prev
+            </button>
             <button type="submit">Next</button>
           </div>
         </form>
@@ -139,7 +143,9 @@ const Register = () => {
 
           {/*Buttons*/}
           <div className="btns">
-            <button type="button">Prev</button>
+            <button type="button" onClick={() => plusIndex(-1)}>
+              Prev
+            </button>
             <button type="submit">Submit</button>
           </div>
         </form>
